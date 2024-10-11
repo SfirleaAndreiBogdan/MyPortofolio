@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #081b29;
+}
+
+h2 {
+    color: white;
+    margin: 50px auto;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    margin-right: 35px;
+    background: #125068;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #ededed;
+    padding: 10px;
+    margin-left: 35px;
+    transition: color 1s;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    color: #00abf0;
+    padding: 10px;
+    margin-left: 35px;
+}
+
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.home-content{
+    max-width: 600px;
+}
+
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    text-align: center;
+    justify-content: center;
+}
+
+.courses{
+    display: flex;
+    font-size: 24px;
+}
+
+.about-content{
+
+    max-width: 700px;
+}
+
+.about-content p{
+
+    font-size: 18px;
+    color: #ededed;
+    justify-items: center;
+}
+
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.home-content p{
+    margin-top: 35px;
+    font-size: 18px;
+    color: #ededed;
+    justify-items: center;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+footer {
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    top: 20px;
+    width: 100%;
+}
+
+.despre{
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+.list li{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+
+.list a{
+    text-decoration: none;
+    color: #ededed;
+    font-size: 24px;
+}
+
+.image {
+    display: flex;
+    margin: 20px auto;
+    max-width: 30%;
+    height: auto;
+    border: 5px solid #00abf0;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.gif {
+    display: flex;
+    max-width: 30%;
+    margin: 20px 20px 20px auto;
+    height: auto;
+    width: 100%;
+}
+
+
+article {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    background-color: #000083;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.inp {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#tit{
+    text-align: center;
+    font-size: 24px;
+}
+#ptcv{
+    display: inline-block;
+}
+
+.arrow-1 {
+    width:100px;
+    height:30px;
+    display: flex;
+    color: #ededed;
+    margin-left: 25px;
+}
+.arrow-1:before {
+    content: "";
+    background: currentColor;
+    width:15px;
+    clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+    animation: a1 1.5s infinite linear;
+}
+@keyframes a1 {
+    90%,100%{flex-grow: 1}
+}
+
+ul.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #ededed;
+    font-size: 24px;
+}
+
+
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #24292e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.github-button:hover {
+    background-color: #333;
+}
+
+.home-content h2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sfîrlea Andrei Bogdan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Back-End Developer hire.">
+    <title>Contact</title>
+    <link rel="icon" href="../resources/favicon.png" type="png">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">Andrei's Portofolio.</a>
+
+    <nav class="navbar">
+        <a href="index.html">Acasa</a>
+        <a href="despre.html">Despre</a>
+        <a href="proiecte.html">Proiecte</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+<section class="home">
+<h2 id="tit">Pentru colaborări complectati acest formular din dreapta</h2>
+
+<form method="post", action="../Controller/formResp.php">
+    <label for="nume">Nume</label><br>
+    <input class="inp" id="nume" name="nume" placeholder="ex: Pop" required><br>
+
+    <label for="prenume">Prenume</label><br>
+    <input class="inp" id="prenume" name="prenume" placeholder="ex: Dorel" required><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" class="inp" id="email" name="email" placeholder="ex: ana@example.com" required><br>
+
+    <input type="submit" class="submit-button" value="Trimite">
+</form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Portofoliul Meu. Toate drepturile rezervate.</p>
+</footer>
+
+</body>
+</html>
